@@ -1,12 +1,14 @@
 body {
   background-color: #f9f7fe;
-  font-family: sans-serif;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 h1 {
   text-align: center;
-  font-family: sans-serif;
   font-size: 36px;
+  margin-top: 20px;
 }
 
 h2 {
@@ -20,11 +22,12 @@ select {
   font-size: 18px;
   border-radius: 4px;
   padding: 10px;
+  margin: 20px auto;
 }
 
 .container {
   max-width: 600px;
-  margin: 60px auto;
+  margin: 20px auto;
   background: white;
   padding: 30px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
@@ -35,7 +38,7 @@ select {
   display: flex;
   margin: 10px 0;
   justify-content: space-between;
-  padding: 30px 0;
+  padding: 20px 0;
   border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
 }
 
@@ -62,4 +65,20 @@ footer {
   text-align: center;
   font-size: 18px;
   color: rgba(0, 0, 0, 0.8);
+  margin-top: 20px;
+}
+
+#home-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#home-button:hover {
+  background-color: #0056b3;
 }
